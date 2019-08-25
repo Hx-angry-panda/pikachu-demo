@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background: #FEE433;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper{
+  width: 320px;
+  height: 250px;
+  position: relative;
+}
+.leftEye{
+  width: 55px;
+  height: 55px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background: #2e2e2e;
+  position: absolute;
+  left: 50%;
+  margin-left: -120px;
+}
+.rightEye{
+  width: 55px;
+  height: 55px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background: #2e2e2e;
+  position: absolute;
+  right: 50%;
+  margin-right: -120px;
+}
+.leftEyeball{
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  left: 10%;
+}
+.rightEyeball{
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  right:10%;
+}
+.nose{
+  width: 0px;
+  height: 0px;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+  border-top: 18px solid black;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  margin-left: -18px;
+}
+.leftUpperLip{
+  width: 70px;
+  height: 35px;
+  border: 2px solid black;
+  border-bottom-left-radius: 60px 35px;
+  border-top: none;
+  border-right: none;
+  transform: rotate(-45deg);
+  background: #FEE433;
+  position: absolute;
+  right: 50%;
+  top: 35%;
+}
+.rightUpperLip{
+  width: 70px;
+  height: 35px;
+  border: 2px solid black;
+  border-bottom-right-radius: 60px 35px;
+  border-top: none;
+  border-left: none;
+  transform: rotate(45deg);
+  background: #FEE433;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+}
+.leftFace{
+  width: 75px;
+  height: 75px;
+  background:#F00;
+  border:2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  margin-left: -160px;
+}
+.rightFace{
+  width: 75px;
+  height: 75px;
+  background:#F00;
+  border:2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 45%;
+  right: 50%;
+  margin-right: -160px;
+}
+.mouseWrapper{
+  height: 120px;
+  width:90px;
+  position:absolute;
+  left:50%;
+  top:36%;
+  margin-left:-45px;
+  overflow:hidden;
+  z-index: -1;
+}
+.mouse{
+  width:90px;
+  height:500px;
+  background: #9B000A;
+  border-radius:50px/160px;
+  position: absolute;
+  bottom: 0;
+  border: 2px solid black;
+  overflow: hidden;
+
+}
+.tongue{
+  width: 80px;
+  height: 80px;
+  background: #FC4A62;
+  border-radius: 50%;
+  position: absolute;
+  left:50%;
+  bottom: 0;
+  margin-left: -40px;
+}
